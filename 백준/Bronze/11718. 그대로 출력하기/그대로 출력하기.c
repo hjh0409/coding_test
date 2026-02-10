@@ -4,10 +4,11 @@
  
 
 int main() {
-    char str[101];
+    char str[100];
 
-    while (fgets(str, sizeof(str), stdin) != NULL){
-        printf("%s", str);
-}
+    while (fgets(str, sizeof(str), stdin) !=NULL) 
+    printf("%s", str);
+    
+
     return 0;
 }
